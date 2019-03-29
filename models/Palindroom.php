@@ -11,7 +11,7 @@ echo flipText("Piet");
 
 function flipText($text){
     $flippedText= "";
-    for($i=strlen($text);$i>=0;$i--){
+    for($i=strlen($text)-1;$i>=0;$i--){
         $flippedText = $flippedText . $text[$i];
         
     }
